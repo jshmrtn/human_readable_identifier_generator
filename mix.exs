@@ -6,7 +6,7 @@ defmodule HumanReadableIdentifierGenerator.MixProject do
   def project do
     [
       app: :human_readable_identifier_generator,
-      version: "0.0.0",
+      version: "1.0.0",
       description: description(),
       package: package(),
       elixir: "~> 1.11",
