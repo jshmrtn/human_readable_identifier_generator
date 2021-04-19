@@ -58,7 +58,7 @@ defmodule HumanReadableIdentifierGenerator.MixProject do
 
   defp deps do
     [
-      {:unidecode, "~> 0.0.2", only: [:dev, :test]},
+      {:unidecode, "~> 1.0.0", only: [:dev, :test]},
       {:credo, "~> 1.4", runtime: false, only: [:dev]},
       {:dialyxir, "~> 1.0", runtime: false, only: [:dev]},
       {:ex_doc, "~> 0.19", runtime: false, only: [:dev]},
